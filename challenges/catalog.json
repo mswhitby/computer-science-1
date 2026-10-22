@@ -1,0 +1,295 @@
+{
+  "schemaVersion": 1,
+  "language": "python",
+  "week": "2026-10-26",
+  "sourceRepository": "mswhitby/python_problems_20261026",
+  "submissionRepository": "mswhitby/python_problems_20261026",
+  "challenges": [
+    {
+      "id": "cube-volume-debugger",
+      "title": "3D Object Volume Bug",
+      "difficulty": "Very Easy",
+      "points": 5,
+      "topics": [
+        "Debugging",
+        "Arithmetic"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": false
+    },
+    {
+      "id": "bot-spammer",
+      "title": "Bot Spammer",
+      "difficulty": "Very Easy",
+      "points": 5,
+      "topics": [
+        "Booleans",
+        "Conditionals"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": false
+    },
+    {
+      "id": "co-op-lobby-notification",
+      "title": "Co-op Lobby Notification",
+      "difficulty": "Very Easy",
+      "points": 5,
+      "topics": [
+        "Strings"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": false
+    },
+    {
+      "id": "fence-material-estimator",
+      "title": "Fence Material Estimator",
+      "difficulty": "Very Easy",
+      "points": 5,
+      "topics": [
+        "Arithmetic"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": false
+    },
+    {
+      "id": "mood-music-label",
+      "title": "Mood-to-Music Label",
+      "difficulty": "Very Easy",
+      "points": 5,
+      "topics": [
+        "Strings"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": true
+    },
+    {
+      "id": "thermostat-sensor-debugger",
+      "title": "Thermostat Sensor Debugger",
+      "difficulty": "Very Easy",
+      "points": 5,
+      "topics": [
+        "Debugging",
+        "Loops"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": false
+    },
+    {
+      "id": "ticket-queue-counter",
+      "title": "Ticket Queue Counter",
+      "difficulty": "Very Easy",
+      "points": 5,
+      "topics": [
+        "Arithmetic"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": false
+    },
+    {
+      "id": "triangle-frame-check",
+      "title": "Triangle Frame Safety Check",
+      "difficulty": "Very Easy",
+      "points": 5,
+      "topics": [
+        "Arithmetic"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": false
+    },
+    {
+      "id": "upload-space-check",
+      "title": "Upload Space Gatekeeper",
+      "difficulty": "Very Easy",
+      "points": 5,
+      "topics": [
+        "Arithmetic",
+        "Booleans"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": false
+    },
+    {
+      "id": "app-event-type-tally",
+      "title": "App Event Type Tally",
+      "difficulty": "Easy",
+      "points": 10,
+      "topics": [
+        "Dictionaries",
+        "Loops",
+        "Strings"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": true
+    },
+    {
+      "id": "assignment-deadline-queue",
+      "title": "Assignment Deadline Queue",
+      "difficulty": "Easy",
+      "points": 10,
+      "topics": [
+        "Dictionaries",
+        "Conditionals",
+        "Lists"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": false
+    },
+    {
+      "id": "classroom-charging-queue",
+      "title": "Classroom Charging Queue",
+      "difficulty": "Easy",
+      "points": 10,
+      "topics": [
+        "Dictionaries",
+        "Lists",
+        "Conditionals"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": false
+    },
+    {
+      "id": "classroom-topic-tag",
+      "title": "Classroom Topic Tag",
+      "difficulty": "Easy",
+      "points": 10,
+      "topics": [
+        "Strings"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": false
+    },
+    {
+      "id": "command-palette-matcher",
+      "title": "Command Palette Matcher",
+      "difficulty": "Easy",
+      "points": 10,
+      "topics": [
+        "Strings",
+        "Lists"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": false
+    },
+    {
+      "id": "feature-switch-inverter",
+      "title": "Feature Switch Inverter",
+      "difficulty": "Easy",
+      "points": 10,
+      "topics": [
+        "Booleans"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": false
+    },
+    {
+      "id": "focus-timer-debugger",
+      "title": "Focus Timer Debugger",
+      "difficulty": "Easy",
+      "points": 10,
+      "topics": [
+        "Debugging",
+        "Arithmetic"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": false
+    },
+    {
+      "id": "high-score-streak",
+      "title": "High Score Streak",
+      "difficulty": "Easy",
+      "points": 10,
+      "topics": [
+        "Loops",
+        "Lists"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": false
+    },
+    {
+      "id": "installer-download-meter",
+      "title": "Installer Download Meter",
+      "difficulty": "Easy",
+      "points": 10,
+      "topics": [
+        "Strings",
+        "Arithmetic"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": false
+    },
+    {
+      "id": "lab-procedure-formatter",
+      "title": "Lab Procedure Formatter",
+      "difficulty": "Easy",
+      "points": 10,
+      "topics": [
+        "Loops",
+        "Lists",
+        "Strings"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": false
+    },
+    {
+      "id": "missing-library-badge",
+      "title": "Missing Library Badge",
+      "difficulty": "Easy",
+      "points": 10,
+      "topics": [
+        "Lists",
+        "Arithmetic"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": false
+    },
+    {
+      "id": "beacon-checkpoint-scanner",
+      "title": "Beacon Checkpoint Scanner",
+      "difficulty": "Hard",
+      "points": 25,
+      "topics": [
+        "Loops",
+        "Arithmetic",
+        "Lists"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": true
+    },
+    {
+      "id": "login-session-audit",
+      "title": "Login Session Audit",
+      "difficulty": "Hard",
+      "points": 25,
+      "topics": [
+        "Dictionaries",
+        "State machines"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": false
+    },
+    {
+      "id": "robot-maze-navigator",
+      "title": "Robot Maze Navigator",
+      "difficulty": "Hard",
+      "points": 25,
+      "topics": [
+        "Grid algorithms",
+        "Lists"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": false
+    },
+    {
+      "id": "screen-reader-announcement",
+      "title": "Screen Reader Announcement Composer",
+      "difficulty": "Hard",
+      "points": 25,
+      "topics": [
+        "Strings",
+        "Lists"
+      ],
+      "week": "2026-10-26",
+      "hasSkills": false
+    }
+  ]
+}

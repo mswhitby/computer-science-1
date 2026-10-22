@@ -1,0 +1,130 @@
+{
+  "id": "2026-10-26",
+  "title": "Python Challenges — Week of October 26, 2026",
+  "bank": "../catalog.json",
+  "submissionRepository": "mswhitby/python_problems_20261026",
+  "scoring": "per-challenge partial credit; checked by weekly GitHub grader",
+  "totalPoints": 255,
+  "questions": [
+    {
+      "id": "cube-volume-debugger",
+      "points": 5,
+      "difficulty": "Very Easy"
+    },
+    {
+      "id": "bot-spammer",
+      "points": 5,
+      "difficulty": "Very Easy"
+    },
+    {
+      "id": "co-op-lobby-notification",
+      "points": 5,
+      "difficulty": "Very Easy"
+    },
+    {
+      "id": "fence-material-estimator",
+      "points": 5,
+      "difficulty": "Very Easy"
+    },
+    {
+      "id": "mood-music-label",
+      "points": 5,
+      "difficulty": "Very Easy"
+    },
+    {
+      "id": "thermostat-sensor-debugger",
+      "points": 5,
+      "difficulty": "Very Easy"
+    },
+    {
+      "id": "ticket-queue-counter",
+      "points": 5,
+      "difficulty": "Very Easy"
+    },
+    {
+      "id": "triangle-frame-check",
+      "points": 5,
+      "difficulty": "Very Easy"
+    },
+    {
+      "id": "upload-space-check",
+      "points": 5,
+      "difficulty": "Very Easy"
+    },
+    {
+      "id": "app-event-type-tally",
+      "points": 10,
+      "difficulty": "Easy"
+    },
+    {
+      "id": "assignment-deadline-queue",
+      "points": 10,
+      "difficulty": "Easy"
+    },
+    {
+      "id": "classroom-charging-queue",
+      "points": 10,
+      "difficulty": "Easy"
+    },
+    {
+      "id": "classroom-topic-tag",
+      "points": 10,
+      "difficulty": "Easy"
+    },
+    {
+      "id": "command-palette-matcher",
+      "points": 10,
+      "difficulty": "Easy"
+    },
+    {
+      "id": "feature-switch-inverter",
+      "points": 10,
+      "difficulty": "Easy"
+    },
+    {
+      "id": "focus-timer-debugger",
+      "points": 10,
+      "difficulty": "Easy"
+    },
+    {
+      "id": "high-score-streak",
+      "points": 10,
+      "difficulty": "Easy"
+    },
+    {
+      "id": "installer-download-meter",
+      "points": 10,
+      "difficulty": "Easy"
+    },
+    {
+      "id": "lab-procedure-formatter",
+      "points": 10,
+      "difficulty": "Easy"
+    },
+    {
+      "id": "missing-library-badge",
+      "points": 10,
+      "difficulty": "Easy"
+    },
+    {
+      "id": "beacon-checkpoint-scanner",
+      "points": 25,
+      "difficulty": "Hard"
+    },
+    {
+      "id": "login-session-audit",
+      "points": 25,
+      "difficulty": "Hard"
+    },
+    {
+      "id": "robot-maze-navigator",
+      "points": 25,
+      "difficulty": "Hard"
+    },
+    {
+      "id": "screen-reader-announcement",
+      "points": 25,
+      "difficulty": "Hard"
+    }
+  ]
+}
