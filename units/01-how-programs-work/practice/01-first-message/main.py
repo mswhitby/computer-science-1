@@ -1,2 +1,2 @@
-# Use print() to display the exact welcome message.
-# Your program should display one line.
+# This program welcomes students to Computer Science I.
+print("Welcome to Computer Science I")
