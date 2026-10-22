@@ -39,7 +39,7 @@ A robotics club runs `3` sessions lasting `45` minutes each. Use variables named
 135
 ```
 
-**Starter file:** [`main.py`](practice/02-numbers-and-operations/main.py)
+**Starter file:** [`main.py`](../practice/02-numbers-and-operations/main.py)
 
 Use **Run** to experiment and **Check** to compare against published examples. A passing public example does not automatically establish mastery.
 

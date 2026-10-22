@@ -40,7 +40,7 @@ int
 float
 ```
 
-**Starter file:** [`main.py`](practice/03-types-and-conversion/main.py)
+**Starter file:** [`main.py`](../practice/03-types-and-conversion/main.py)
 
 Use **Run** to experiment and **Check** to compare against published examples. A passing public example does not automatically establish mastery.
 

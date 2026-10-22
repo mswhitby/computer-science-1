@@ -38,7 +38,7 @@ Create a variable named `player` storing the text `Nova`. Display exactly `Playe
 Player: Nova
 ```
 
-**Starter file:** [`main.py`](practice/01-meet-variables/main.py)
+**Starter file:** [`main.py`](../practice/01-meet-variables/main.py)
 
 Use **Run** to experiment and **Check** to compare against published examples. A passing public example does not automatically establish mastery.
 

@@ -38,7 +38,7 @@ A club sells `4` passes at `$12` each. Define variables `passes` and `price`, ca
 Total: 48
 ```
 
-**Starter file:** [`main.py`](practice/04-build-a-price-calculator/main.py)
+**Starter file:** [`main.py`](../practice/04-build-a-price-calculator/main.py)
 
 Use **Run** to experiment and **Check** to compare against published examples. A passing public example does not automatically establish mastery.
 
