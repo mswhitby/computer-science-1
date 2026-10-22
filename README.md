@@ -12,9 +12,13 @@ The goal is to **learn one concept at a time**, practice it, and build on it in 
 
 The [challenge bank](challenges/) contains 24 questions tagged by topic and categorized by difficulty, with 255 points in the [October 26 assignment](challenges/assignments/2026-10-26.json). The lab offers browser execution, public-example checking and optional skills explanations. **Official submissions still go to the [October 26 challenge repository](https://github.com/mswhitby/python_problems_20261026)** through the existing fork-and-PR workflow.
 
-### Separate curriculum — Unit 01
+### Guided curriculum — Units 01–06
 
-**[Unit 01 — How Programs Work](units/01-how-programs-work/README.md)** is our prototype for a future sequential course. It is not the October 26 assignment; students do **not** need to restart Unit 01 to complete this week's challenges.
+**[Open interactive Units 02–06 on mswhitby.com](https://www.mswhitby.com/computer-science-1/units/)**
+
+There are **20 new lessons and independently checkable exercises** across Units 02–06, following the introductory [Unit 01](units/01-how-programs-work/README.md). Students can study lessons as needed rather than restarting from the beginning. The [lesson catalogs](units/) contain the topic explanations, starter Python files, three hints for each lesson, and the published public checks. The new [Unit 02–06 GitHub Actions grader](grader/grade_units_02_06.py) checks changed lesson files after a pull request. See [submission instructions](SUBMITTING.md).
+
+This is a **separate track** from the reusable [challenge bank](challenges/). Both can support learning and assessment; your instructor decides what counts for credit.
 
 
 ### Interactive student site
@@ -41,25 +45,25 @@ The student-facing app is published through the existing `mswhitby/classroom` we
 | 09 | Dictionaries and counting | Collections and loops |
 | 10 | Cumulative challenges and projects | All prior units |
 
-Only Unit 01 is implemented. Later units are a provisional sequence.
+Units **01–06 are implemented**. Units 07–10 remain a provisional sequence, to be built after reviewing the first group.
 
 ## Student workflow (prototype)
 
 1. Read [the unit lesson](units/01-how-programs-work/lesson.md).
-2. Open the practice app and select an exercise.
+2. Open the [guided Units 02–06](https://www.mswhitby.com/computer-science-1/units/) or [challenge lab](https://www.mswhitby.com/computer-science-1/challenges/) and select an exercise.
 3. Write code, click **Run**, and see your output or error messages immediately.
 4. Click **Check** to compare your output with the published requirements.
 5. Code drafts and local checks save in the **current browser**.
-6. To submit to GitHub for now, copy your code to the matching `main.py` in your fork and open a pull request. [Submission guide](SUBMITTING.md).
+6. To submit to GitHub for now, copy your code to the matching `main.py` (lessons) or `solution.py` (challenges) in the correct fork and open a pull request. [Submission guide](SUBMITTING.md).
 
 **Automatic GitHub submissions are not implemented in the prototype.** That requires secure GitHub sign-in and a narrowly scoped backend/GitHub App. The browser app never asks for a password or access token.
 
 ## Instructor notes
 
-- The [autograder](grader/grade_unit_01.py) checks changed Unit 01 scripts on pull requests with a read-only GitHub Actions workflow.
+- The [Unit 01 grader](grader/grade_unit_01.py) and [Units 02–06 grader](grader/grade_units_02_06.py) check changed lesson scripts on pull requests with read-only GitHub Actions workflows.
 - Public browser checks are for learning; the GitHub workflow is the submission check.
 - No student identity, gradebook, or credential data is stored in this repository.
-- This repository is the course-content source. The existing `mswhitby/classroom` repository remains the site behind `mswhitby.com`; **nothing was changed there**.
+- This repository is the course-content source. The existing `mswhitby/classroom` repository remains the site behind `mswhitby.com`; the site now includes separate interactive lesson and challenge areas.
 
 ## References
 
