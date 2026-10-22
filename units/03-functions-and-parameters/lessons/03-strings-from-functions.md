@@ -68,7 +68,7 @@ solution('')
 'Welcome, !'
 ```
 
-**Starter file:** [`main.py`](practice/03-strings-from-functions/main.py)
+**Starter file:** [`main.py`](../practice/03-strings-from-functions/main.py)
 
 Use **Run** to experiment and **Check** to compare against published examples. A passing public example does not automatically establish mastery.
 

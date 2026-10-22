@@ -68,7 +68,7 @@ solution(99)
 100
 ```
 
-**Starter file:** [`main.py`](practice/01-functions-return/main.py)
+**Starter file:** [`main.py`](../practice/01-functions-return/main.py)
 
 Use **Run** to experiment and **Check** to compare against published examples. A passing public example does not automatically establish mastery.
 
