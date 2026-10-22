@@ -10,13 +10,14 @@ The goal is to **learn one concept at a time**, practice it, and build on it in 
 
 Unit 01 begins with writing instructions, using `print()`, following execution order, commenting code, and fixing simple syntax errors. No variables, loops, or custom functions are required.
 
-### Interactive preview
+### Interactive student site
 
-The interactive Python practice app lives in [`docs/`](docs/). It runs Python in your browser and can check your practice output. Once GitHub Pages is enabled for this repository (source: `main`, folder `/docs`), its URL should be:
+**[Open Computer Science I Python practice on mswhitby.com](https://www.mswhitby.com/computer-science-1/)**
 
-**https://mswhitby.github.io/computer-science-1/**
+The student-facing app is published through the existing `mswhitby/classroom` website repository at `/computer-science-1/`. This avoids sending students to a blocked `github.io` URL. The lessons and grading code continue to live in this repository.
 
-That URL is a *planned publication address*, not a confirmed live site. You can also preview locally by serving the `docs` directory over HTTP.
+**Deployment note:** The app currently loads the Python browser runtime from `cdn.jsdelivr.net`; test **Run Code** on a district device before assigning it. If that CDN is blocked, host the runtime on the approved domain too.
+
 
 ## Curriculum roadmap
 
