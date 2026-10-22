@@ -1,18 +1,34 @@
-# Submitting Unit 01 on GitHub
+# Submitting Your Computer Science I Work
 
-The browser editor currently supports **Run**, **Check**, **Save Draft**, and **Copy Code**. Automatic pull-request submission is a planned feature—not available yet.
+The browser exercises can **Run**, **Check**, **Save draft**, and **Copy code**. They do not automatically commit or open pull requests yet.
 
-## Current submission steps
+## First choose the correct track
 
-1. Sign in to GitHub and [fork the Computer Science I repository](https://github.com/mswhitby/computer-science-1/fork), if you haven't already.
-2. In your fork, open the matching path under `units/01-how-programs-work/practice/`.
-3. Edit the `main.py` file and paste your working code from the browser editor.
-4. **Commit** the change in your fork.
-5. Open one pull request from your fork's `main` into `mswhitby/computer-science-1` `main`.
-6. Leave the pull request open and **do not merge it**. For corrections, commit more changes to the same forked branch.
+| Student activity | Live website | Official GitHub submission repository | File to edit |
+|---|---|---|---|
+| Guided Units 01–06 | [Lessons](https://www.mswhitby.com/computer-science-1/units/) or [Unit 01](https://www.mswhitby.com/computer-science-1/) | [computer-science-1](https://github.com/mswhitby/computer-science-1) | Unit-specific `practice/<lesson>/main.py` |
+| Weekly or reusable questions | [Challenge Lab](https://www.mswhitby.com/computer-science-1/challenges/) | [October 26 challenges](https://github.com/mswhitby/python_problems_20261026) | Problem-specific `problems/<challenge>/solution.py` |
 
-The GitHub workflow reads the changed scripts and posts test results in the pull request's **Checks / Actions** summary. No result is added to an instructor gradebook in this prototype.
+For guided Units 02–06, [the unit directories](units/) show each lesson, starter and prerequisite. The full interactive course unit lab is on the school-approved domain, not `github.io`.
 
-## Why the app cannot submit automatically yet
+## Submit using GitHub
 
-A publicly hosted site cannot safely include a GitHub token with write access. A future version will use GitHub authentication and a trusted service or GitHub App to securely create branches, commit code, and open or update pull requests. Until that is built, the app never requests your GitHub password or a token.
+1. Sign in with your own GitHub account.
+2. **Fork the relevant repository** from the table above to your own GitHub account. If you already forked it, **sync your fork with upstream** before starting newly added lessons.
+3. On the learning website, choose an exercise, write your code, and use **Run** or **Check** to practice.
+4. Use **Copy code** from the website. In your fork, open the **matching file** in the same folder as the assignment.
+5. Paste your code into `main.py` (lessons) or `solution.py` (challenges), and **commit** the changes.
+6. Open a pull request from your fork's `main` into the original repository's `main`. Keep the PR **open**, and **do not merge it**.
+7. Correct errors by committing changes to the same branch and PR. The GitHub Actions checks run again automatically.
+
+**Your code stays in your GitHub fork.** You can come back to it later, sync upstream to get new starter files, and update your own solutions. Do not overwrite working code when syncing.
+
+## Important distinction
+
+The website's **Check** button uses published practice examples. It helps you debug but is **not** an official grade. GitHub Actions handles submitted work. Units 02–06 have a separate PR workflow; it checks **only changed exercises** and doesn't treat unfinished or unchanged lessons as zeros.
+
+The browser currently saves drafts on **this device/browser only**. Clearing site data or switching devices can erase these drafts. Always commit completed work to your fork, or use Copy code for a backup.
+
+## Future workflow
+
+We plan to offer secure **Sign in with GitHub**, **Resume from GitHub**, and **Submit** controls. They require a connected authentication service and explicit access to the student's GitHub repositories. No GitHub passwords, access tokens, teacher secrets, journal responses, or private gradebook data will be placed in this public repository.
