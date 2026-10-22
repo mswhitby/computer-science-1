@@ -4,11 +4,18 @@ A progressive, browser-friendly Python curriculum for Computer Science I.
 
 The goal is to **learn one concept at a time**, practice it, and build on it in later units. Every lesson contains explanations, runnable examples, and small tasks that can be checked automatically. The curriculum draws inspiration from the *progressive teaching approach* of *Learn Python the Right Way*; its scenarios and explanations are original.
 
-## Start here
+## Two learning tracks
 
-**[Unit 01 — How Programs Work](units/01-how-programs-work/README.md)**
+### Current assignment — October 26 Python challenges
 
-Unit 01 begins with writing instructions, using `print()`, following execution order, commenting code, and fixing simple syntax errors. No variables, loops, or custom functions are required.
+**[Open the interactive challenge lab on mswhitby.com](https://www.mswhitby.com/computer-science-1/challenges/)**
+
+The [challenge bank](challenges/) contains 24 questions tagged by topic and categorized by difficulty, with 255 points in the [October 26 assignment](challenges/assignments/2026-10-26.json). The lab offers browser execution, public-example checking and optional skills explanations. **Official submissions still go to the [October 26 challenge repository](https://github.com/mswhitby/python_problems_20261026)** through the existing fork-and-PR workflow.
+
+### Separate curriculum — Unit 01
+
+**[Unit 01 — How Programs Work](units/01-how-programs-work/README.md)** is our prototype for a future sequential course. It is not the October 26 assignment; students do **not** need to restart Unit 01 to complete this week's challenges.
+
 
 ### Interactive student site
 
