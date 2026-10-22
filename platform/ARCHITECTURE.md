@@ -2,6 +2,10 @@
 
 **Status: design proposal.** The student login, student database, GitHub write-back and teacher dashboard below are **not deployed**. This document intentionally contains no real student identities, login credentials or private records.
 
+## Proposed cloud grading (new direction)
+
+[**Cloud grading and best-score attempt history**](CLOUD_GRADING.md) is the intended successor to requiring a GitHub pull request for every submission. It retains every attempt, awards the highest verified score for the same activity and grading scope, uses private test cases executed in an isolated runner, and keeps GitHub as the code archive. Until that backend is approved, configured and tested, the current PR workflows remain the live submission method. The architecture below describes the **broader** student portal, private journals and teacher dashboard, not a deployed service.
+
 ## Recommendation
 
 Use **Supabase (managed PostgreSQL + Auth + Row Level Security)** for student/classroom records, with **GitHub as the canonical code/version history** and `www.mswhitby.com` as the student UI.
@@ -18,7 +22,7 @@ Do **not** put private student data in the public repository or in public JavaSc
 www.mswhitby.com
 ├── Guided lessons    → public curriculum and in-browser Python
 ├── Challenge bank    → public problems and public-example checks
-├── My Work           → authenticated resume, saved revisions, PR status
+├── My Work           → authenticated resume, saved revisions, grading status
 ├── Weekly Journals   → authenticated, private student writing
 └── Teacher Dashboard → authorized teachers only
          │
@@ -31,8 +35,8 @@ www.mswhitby.com
          └── trusted backend / Edge Functions
               ├── GitHub App tokens (never sent to browser)
               ├── GitHub fork/branch/code reads and writes
-              ├── commits + PR create/update
-              └── signed GitHub webhook ingestion / verified grades
+              ├── commits + secure Submit for Grade (PR optional)
+              └── signed grading-worker results / verified scores; optional GitHub webhooks
                        │
                        └── GitHub Actions autograders + commit history
 ```
