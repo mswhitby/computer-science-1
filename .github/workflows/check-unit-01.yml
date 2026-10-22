@@ -1,0 +1,34 @@
+name: Check Unit 01 Python Practice
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, reopened, synchronize]
+
+permissions:
+  contents: read
+
+jobs:
+  grade-unit-01:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Check out proposed student work without credentials
+        uses: actions/checkout@v4
+        with:
+          ref: refs/pull/${{ github.event.pull_request.number }}/merge
+          path: student
+          fetch-depth: 2
+          persist-credentials: false
+      - name: Check out trusted grader from target branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: trusted
+          persist-credentials: false
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Evaluate modified scripts
+        run: python trusted/grader/grade_unit_01.py student
