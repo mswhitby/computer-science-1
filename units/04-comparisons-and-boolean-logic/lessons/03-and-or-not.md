@@ -68,7 +68,7 @@ solution(False, False)
 False
 ```
 
-**Starter file:** [`main.py`](practice/03-and-or-not/main.py)
+**Starter file:** [`main.py`](../practice/03-and-or-not/main.py)
 
 Use **Run** to experiment and **Check** to compare against published examples. A passing public example does not automatically establish mastery.
 

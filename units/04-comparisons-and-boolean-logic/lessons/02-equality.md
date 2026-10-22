@@ -68,7 +68,7 @@ solution('', '')
 True
 ```
 
-**Starter file:** [`main.py`](practice/02-equality/main.py)
+**Starter file:** [`main.py`](../practice/02-equality/main.py)
 
 Use **Run** to experiment and **Check** to compare against published examples. A passing public example does not automatically establish mastery.
 

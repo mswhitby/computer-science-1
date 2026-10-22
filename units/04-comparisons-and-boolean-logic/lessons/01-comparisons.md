@@ -67,7 +67,7 @@ solution(4, 5)
 False
 ```
 
-**Starter file:** [`main.py`](practice/01-comparisons/main.py)
+**Starter file:** [`main.py`](../practice/01-comparisons/main.py)
 
 Use **Run** to experiment and **Check** to compare against published examples. A passing public example does not automatically establish mastery.
 
