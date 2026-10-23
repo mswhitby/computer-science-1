@@ -31,14 +31,14 @@ Avoid returning a Boolean when the prompt explicitly requires a string.
 
 ## Practice
 
-Complete `solution(points)` so it returns `'Pass'` for scores at least **70**, and `'Retry'` otherwise.
+Complete `classify_pass_status(points)` so it returns `'Pass'` for scores at least **70**, and `'Retry'` otherwise.
 
 ### Public example 1
 
 **Input**
 
 ```python
-solution(70)
+classify_pass_status(70)
 ```
 
 **Output**
@@ -52,7 +52,7 @@ solution(70)
 **Input**
 
 ```python
-solution(69)
+classify_pass_status(69)
 ```
 
 **Output**
@@ -66,7 +66,7 @@ solution(69)
 **Input**
 
 ```python
-solution(100)
+classify_pass_status(100)
 ```
 
 **Output**

@@ -30,12 +30,12 @@ Printing a value is not the same as returning it.
 
 ## Practice: Returning an answer
 
-Complete `solution(number)` so it returns `number + 1`, without printing the answer.
+Complete `increment_number(number)` so it returns `number + 1`, without printing the answer.
 
 **Example 1 — Input**
 
 ```python
-solution(4)
+increment_number(4)
 ```
 
 **Output**
@@ -47,7 +47,7 @@ solution(4)
 **Example 2 — Input**
 
 ```python
-solution(-1)
+increment_number(-1)
 ```
 
 **Output**
@@ -59,7 +59,7 @@ solution(-1)
 **Example 3 — Input**
 
 ```python
-solution(99)
+increment_number(99)
 ```
 
 **Output**

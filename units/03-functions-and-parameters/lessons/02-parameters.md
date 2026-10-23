@@ -30,12 +30,12 @@ Don't swap parameters accidentally when their positions have different meanings.
 
 ## Practice: Working with two inputs
 
-Complete `solution(hours, rate)` to return the total pay calculated by multiplying hours by the hourly rate.
+Complete `calculate_pay(hours, rate)` to return the total pay calculated by multiplying hours by the hourly rate.
 
 **Example 1 — Input**
 
 ```python
-solution(3, 12)
+calculate_pay(3, 12)
 ```
 
 **Output**
@@ -47,7 +47,7 @@ solution(3, 12)
 **Example 2 — Input**
 
 ```python
-solution(0, 14)
+calculate_pay(0, 14)
 ```
 
 **Output**
@@ -59,7 +59,7 @@ solution(0, 14)
 **Example 3 — Input**
 
 ```python
-solution(2, 7.5)
+calculate_pay(2, 7.5)
 ```
 
 **Output**

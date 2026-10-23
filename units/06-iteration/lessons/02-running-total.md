@@ -30,14 +30,14 @@ Initialize the accumulator **before** the loop. Inside the loop would reset it o
 
 ## Practice
 
-Complete `solution(limit)` to return the **sum of every integer from 1 through limit, inclusive**. `limit` is a nonnegative integer.
+Complete `sum_to_limit(limit)` to return the **sum of every integer from 1 through limit, inclusive**. `limit` is a nonnegative integer.
 
 ### Public example 1
 
 **Input**
 
 ```python
-solution(4)
+sum_to_limit(4)
 ```
 
 **Output**
@@ -51,7 +51,7 @@ solution(4)
 **Input**
 
 ```python
-solution(0)
+sum_to_limit(0)
 ```
 
 **Output**
@@ -65,7 +65,7 @@ solution(0)
 **Input**
 
 ```python
-solution(1)
+sum_to_limit(1)
 ```
 
 **Output**
@@ -79,7 +79,7 @@ solution(1)
 **Input**
 
 ```python
-solution(8)
+sum_to_limit(8)
 ```
 
 **Output**

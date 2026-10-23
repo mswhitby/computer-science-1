@@ -31,14 +31,14 @@ Building and returning one string is different from printing multiple separate l
 
 ## Practice
 
-Complete `solution(start)` to **return one string** containing a countdown from `start` to `1`, each on its own line, followed by `Launch!`. `start` is a positive integer. Example for 3: `3\n2\n1\nLaunch!`.
+Complete `create_countdown(start)` to **return one string** containing a countdown from `start` to `1`, each on its own line, followed by `Launch!`. `start` is a positive integer. Example for 3: `3\n2\n1\nLaunch!`.
 
 ### Public example 1
 
 **Input**
 
 ```python
-solution(3)
+create_countdown(3)
 ```
 
 **Output**
@@ -52,7 +52,7 @@ solution(3)
 **Input**
 
 ```python
-solution(1)
+create_countdown(1)
 ```
 
 **Output**
@@ -66,7 +66,7 @@ solution(1)
 **Input**
 
 ```python
-solution(5)
+create_countdown(5)
 ```
 
 **Output**

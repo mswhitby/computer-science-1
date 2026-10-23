@@ -30,12 +30,12 @@ Why do you need the space after the comma in `'Hi, '`?
 
 ## Practice: Return a string
 
-Complete `solution(username)` to return `Welcome, <username>!` with the actual username inserted. Preserve the exact punctuation.
+Complete `create_greeting(username)` to return `Welcome, <username>!` with the actual username inserted. Preserve the exact punctuation.
 
 **Example 1 — Input**
 
 ```python
-solution('Riley')
+create_greeting('Riley')
 ```
 
 **Output**
@@ -47,7 +47,7 @@ solution('Riley')
 **Example 2 — Input**
 
 ```python
-solution('Kai')
+create_greeting('Kai')
 ```
 
 **Output**
@@ -59,7 +59,7 @@ solution('Kai')
 **Example 3 — Input**
 
 ```python
-solution('')
+create_greeting('')
 ```
 
 **Output**

@@ -33,14 +33,14 @@ Always order comparisons with overlapping ranges carefully; earlier matching bra
 
 ## Practice
 
-Complete `solution(score)` to return `'Gold'` for **90 or above**, `'Silver'` for **70 through 89**, and `'Bronze'` for anything below 70.
+Complete `classify_score(score)` to return `'Gold'` for **90 or above**, `'Silver'` for **70 through 89**, and `'Bronze'` for anything below 70.
 
 ### Public example 1
 
 **Input**
 
 ```python
-solution(92)
+classify_score(92)
 ```
 
 **Output**
@@ -54,7 +54,7 @@ solution(92)
 **Input**
 
 ```python
-solution(70)
+classify_score(70)
 ```
 
 **Output**
@@ -68,7 +68,7 @@ solution(70)
 **Input**
 
 ```python
-solution(69)
+classify_score(69)
 ```
 
 **Output**
@@ -82,7 +82,7 @@ solution(69)
 **Input**
 
 ```python
-solution(90)
+classify_score(90)
 ```
 
 **Output**

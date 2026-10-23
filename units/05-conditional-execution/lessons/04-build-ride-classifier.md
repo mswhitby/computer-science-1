@@ -33,14 +33,14 @@ Do not test the age band before the VIP condition if priority must take preceden
 
 ## Practice
 
-Complete `solution(age, has_pass)` to return `'Member'` if `has_pass` is true, otherwise `'Youth'` if `age` is **under 18**, otherwise `'Guest'`. Return a string in every case.
+Complete `classify_ticket(age, has_pass)` to return `'Member'` if `has_pass` is true, otherwise `'Youth'` if `age` is **under 18**, otherwise `'Guest'`. Return a string in every case.
 
 ### Public example 1
 
 **Input**
 
 ```python
-solution(15, True)
+classify_ticket(15, True)
 ```
 
 **Output**
@@ -54,7 +54,7 @@ solution(15, True)
 **Input**
 
 ```python
-solution(15, False)
+classify_ticket(15, False)
 ```
 
 **Output**
@@ -68,7 +68,7 @@ solution(15, False)
 **Input**
 
 ```python
-solution(18, False)
+classify_ticket(18, False)
 ```
 
 **Output**
@@ -82,7 +82,7 @@ solution(18, False)
 **Input**
 
 ```python
-solution(30, True)
+classify_ticket(30, True)
 ```
 
 **Output**

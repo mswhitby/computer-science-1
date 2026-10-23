@@ -30,12 +30,12 @@ Avoid confusing assignment (`=`) and equality (`==`).
 
 ## Practice: Exact matches matter
 
-Complete `solution(expected_code, entered_code)` so it returns a Boolean indicating whether the two strings match exactly.
+Complete `codes_match(expected_code, entered_code)` so it returns a Boolean indicating whether the two strings match exactly.
 
 **Example 1 — Input**
 
 ```python
-solution('AB7', 'AB7')
+codes_match('AB7', 'AB7')
 ```
 
 **Output**
@@ -47,7 +47,7 @@ True
 **Example 2 — Input**
 
 ```python
-solution('AB7', 'ab7')
+codes_match('AB7', 'ab7')
 ```
 
 **Output**
@@ -59,7 +59,7 @@ False
 **Example 3 — Input**
 
 ```python
-solution('', '')
+codes_match('', '')
 ```
 
 **Output**

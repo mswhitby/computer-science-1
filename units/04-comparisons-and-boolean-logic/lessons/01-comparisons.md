@@ -29,12 +29,12 @@ Use `==` for comparison and `=` for assignment.
 
 ## Practice: Ask Python a question
 
-Complete `solution(current, required)` to return `True` if the current score is at least the required score, or `False` otherwise.
+Complete `has_required_points(current, required)` to return `True` if the current score is at least the required score, or `False` otherwise.
 
 **Example 1 — Input**
 
 ```python
-solution(8, 5)
+has_required_points(8, 5)
 ```
 
 **Output**
@@ -46,7 +46,7 @@ True
 **Example 2 — Input**
 
 ```python
-solution(5, 5)
+has_required_points(5, 5)
 ```
 
 **Output**
@@ -58,7 +58,7 @@ True
 **Example 3 — Input**
 
 ```python
-solution(4, 5)
+has_required_points(4, 5)
 ```
 
 **Output**

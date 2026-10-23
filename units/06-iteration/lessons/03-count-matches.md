@@ -31,14 +31,14 @@ Increment the count only if a number satisfies the condition, not on every loop 
 
 ## Practice
 
-Complete `solution(limit)` to return how many positive integers from **1 through limit, inclusive** are divisible by **3**. `limit` is a nonnegative integer.
+Complete `count_multiples_of_three(limit)` to return how many positive integers from **1 through limit, inclusive** are divisible by **3**. `limit` is a nonnegative integer.
 
 ### Public example 1
 
 **Input**
 
 ```python
-solution(10)
+count_multiples_of_three(10)
 ```
 
 **Output**
@@ -52,7 +52,7 @@ solution(10)
 **Input**
 
 ```python
-solution(3)
+count_multiples_of_three(3)
 ```
 
 **Output**
@@ -66,7 +66,7 @@ solution(3)
 **Input**
 
 ```python
-solution(2)
+count_multiples_of_three(2)
 ```
 
 **Output**
@@ -80,7 +80,7 @@ solution(2)
 **Input**
 
 ```python
-solution(15)
+count_multiples_of_three(15)
 ```
 
 **Output**

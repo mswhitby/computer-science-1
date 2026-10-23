@@ -31,14 +31,14 @@ The colon after if and the indentation underneath it are part of Python syntax.
 
 ## Practice
 
-Complete `solution(temperature)` so it returns `'Cold alert'` for temperatures **below 10**, and `'Normal'` otherwise.
+Complete `classify_temperature(temperature)` so it returns `'Cold alert'` for temperatures **below 10**, and `'Normal'` otherwise.
 
 ### Public example 1
 
 **Input**
 
 ```python
-solution(5)
+classify_temperature(5)
 ```
 
 **Output**
@@ -52,7 +52,7 @@ solution(5)
 **Input**
 
 ```python
-solution(10)
+classify_temperature(10)
 ```
 
 **Output**
@@ -66,7 +66,7 @@ solution(10)
 **Input**
 
 ```python
-solution(-4)
+classify_temperature(-4)
 ```
 
 **Output**

@@ -30,12 +30,12 @@ Do not hardcode the sample result; the checker will use additional arguments.
 
 ## Practice: Build: Rectangle Area Tool
 
-Complete `solution(width, height)` to return the area of a rectangle (`width * height`). It must work with positive and zero dimensions.
+Complete `calculate_rectangle_area(width, height)` to return the area of a rectangle (`width * height`). It must work with positive and zero dimensions.
 
 **Example 1 — Input**
 
 ```python
-solution(5, 3)
+calculate_rectangle_area(5, 3)
 ```
 
 **Output**
@@ -47,7 +47,7 @@ solution(5, 3)
 **Example 2 — Input**
 
 ```python
-solution(0, 10)
+calculate_rectangle_area(0, 10)
 ```
 
 **Output**
@@ -59,7 +59,7 @@ solution(0, 10)
 **Example 3 — Input**
 
 ```python
-solution(2.5, 4)
+calculate_rectangle_area(2.5, 4)
 ```
 
 **Output**

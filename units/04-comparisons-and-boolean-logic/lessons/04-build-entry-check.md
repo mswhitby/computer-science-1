@@ -28,12 +28,12 @@ Be explicit about whether the rule requires both conditions or only one.
 
 ## Practice: Build: Entry Check
 
-Complete `solution(has_pass, age)` so entry is allowed (`True`) if the person has a pass **or** is at least `18` years old. Otherwise return `False`.
+Complete `can_enter_event(has_pass, age)` so entry is allowed (`True`) if the person has a pass **or** is at least `18` years old. Otherwise return `False`.
 
 **Example 1 — Input**
 
 ```python
-solution(True, 12)
+can_enter_event(True, 12)
 ```
 
 **Output**
@@ -45,7 +45,7 @@ True
 **Example 2 — Input**
 
 ```python
-solution(False, 18)
+can_enter_event(False, 18)
 ```
 
 **Output**
@@ -57,7 +57,7 @@ True
 **Example 3 — Input**
 
 ```python
-solution(False, 17)
+can_enter_event(False, 17)
 ```
 
 **Output**
@@ -69,7 +69,7 @@ False
 **Example 4 — Input**
 
 ```python
-solution(False, 35)
+can_enter_event(False, 35)
 ```
 
 **Output**

@@ -30,12 +30,12 @@ Use lowercase keywords `and`, `or`, `not`, but capitalized Boolean values `True`
 
 ## Practice: Combine conditions
 
-Complete `solution(online, muted)` to return `True` only when the player is online **and not muted**.
+Complete `can_send_notification(online, muted)` to return `True` only when the player is online **and not muted**.
 
 **Example 1 — Input**
 
 ```python
-solution(True, False)
+can_send_notification(True, False)
 ```
 
 **Output**
@@ -47,7 +47,7 @@ True
 **Example 2 — Input**
 
 ```python
-solution(True, True)
+can_send_notification(True, True)
 ```
 
 **Output**
@@ -59,7 +59,7 @@ False
 **Example 3 — Input**
 
 ```python
-solution(False, False)
+can_send_notification(False, False)
 ```
 
 **Output**
