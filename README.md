@@ -70,3 +70,9 @@ Units **01–06 are implemented**. Units 07–10 remain a provisional sequence, 
 - [Learn Python the Right Way](https://learnpythontherightway.com/) — pedagogy inspiration
 - [Python documentation](https://docs.python.org/3/)
 - [Pyodide](https://pyodide.org/) — Python in the browser
+
+## Shared Playground interface
+
+Python now opens inside `mswhitby/playground`, alongside Game Programming, Mobile App & Web and UIL. This repository remains the authoring source for all 24 lessons, published examples, starters, hints, challenges and the Pyodide worker. The shared build packages these originals; no shortened replacement curriculum is introduced.
+
+The old course home, lesson and challenge URLs redirect into the shared shell. Lesson/challenge hashes are carried across. Existing account IDs, `cs1:guided:v1:` and `cs1:challenges:2026-10-26:` draft/progress keys and activity IDs remain unchanged. Publish the corresponding shared Playground artifact before publishing these entry-page redirects.
