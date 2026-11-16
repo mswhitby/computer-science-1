@@ -6,6 +6,8 @@ on:
     paths:
       - 'scripts/build-frontmatter-catalog.mjs'
       - 'units/**'
+      - 'challenges/**'
+      - 'docs/challenges/**'
       - '.github/workflows/verify-frontmatter-pilot.yml'
   workflow_dispatch:
 permissions:
@@ -27,6 +29,15 @@ jobs:
           import assert from 'node:assert/strict';
           const catalog=JSON.parse(readFileSync('build/frontmatter/course.json','utf8'));
           const map=JSON.parse(readFileSync('build/frontmatter/legacy-id-map.json','utf8'));
+          const challengeMap=JSON.parse(readFileSync('build/frontmatter/challenge-legacy-id-map.json','utf8'));
+          assert(catalog.challenges.length>=24,'Existing challenge bank must remain intact');
+          assert.equal(catalog.counts.lessons.total,catalog.lessons.length);
+          assert.equal(catalog.counts.challenges.total,catalog.challenges.length);
+          assert.equal(catalog.counts.lessons.active+catalog.counts.lessons.archived,catalog.lessons.length);
+          assert.equal(catalog.counts.challenges.active+catalog.counts.challenges.archived,catalog.challenges.length);
+          const challenge=catalog.challenges.find(x=>x.id==='app-event-type-tally');
+          assert.equal(challenge.stableId,'chl_7a2d91b8');
+          assert.equal(challengeMap[challenge.id],challenge.stableId);
           const first=catalog.lessons.find(x=>x.id==='01-how-programs-work/01-first-message');
           assert(first,'Existing lesson ID must remain readable');
           assert.equal(first.stableId,'les_8f3a2c91');
