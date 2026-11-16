@@ -41,7 +41,7 @@ jobs:
           const first=catalog.lessons.find(x=>x.id==='01-how-programs-work/01-first-message');
           assert(first,'Existing lesson ID must remain readable');
           assert.equal(first.stableId,'les_8f3a2c91');
-          assert.equal(first.title,'Instructions and output');
+          assert.equal(first.title,'Instructions and Output');
           assert.equal(first.points,5);
           assert.equal(first.existingPassKey,'cs1:unit01:pass:01-first-message');
           assert.equal(map[first.id],first.stableId);
