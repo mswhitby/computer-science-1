@@ -1,3 +1,14 @@
+---
+id: chl_7a2d91b8
+slug: app-event-type-tally
+title: App Event Type Tally
+order: 1
+points: 10
+status: active
+legacyIds:
+  - app-event-type-tally
+---
+
 # App Event Type Tally
 
 **10 points**
