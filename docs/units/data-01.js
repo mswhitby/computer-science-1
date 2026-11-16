@@ -5,7 +5,7 @@ window.CS1_UNITS=(window.CS1_UNITS||[]).concat([
     "unitName": "How Programs Work",
     "lesson": 1,
     "slug": "01-first-message",
-    "title": "Instructions and output",
+    "title": "Instructions and output [integration test]",
     "concept": "Output and strings",
     "summary": "Tell a computer what to display using a simple Python instruction.",
     "mode": "script",
