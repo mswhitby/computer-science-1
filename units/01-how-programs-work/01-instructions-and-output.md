@@ -1,3 +1,15 @@
+---
+id: les_8f3a2c91
+slug: instructions-and-output
+title: Instructions and output
+unitId: unt_4b19d7e2
+order: 1
+points: 5
+status: active
+legacyIds:
+  - 01-how-programs-work/01-first-message
+---
+
 # Lesson 01 — Instructions and Output
 
 ## What is a program?
