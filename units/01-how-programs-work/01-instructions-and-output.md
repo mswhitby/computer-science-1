@@ -1,7 +1,7 @@
 ---
 id: les_8f3a2c91
 slug: instructions-and-output
-title: Instructions and output
+title: Instructions and Output
 unitId: unt_4b19d7e2
 order: 1
 points: 5
