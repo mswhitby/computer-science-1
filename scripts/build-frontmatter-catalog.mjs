@@ -94,5 +94,5 @@ const output=resolve(root,'build/frontmatter');
 mkdirSync(output,{recursive:true});
 writeFileSync(resolve(output,'course.json'),JSON.stringify({schemaVersion:1,id:'computer-science-1',lessons,challenges,counts},null,2)+'\n');
 writeFileSync(resolve(output,'legacy-id-map.json'),JSON.stringify(migrationMap,null,2)+'\n');
-writeFileSync(resolve(output,'challenge-legacy-id-map.json'),JSON.stringify(challengeMigrationMap,null,2)+'\\n');
+writeFileSync(resolve(output,'challenge-legacy-id-map.json'),JSON.stringify(challengeMigrationMap,null,2)+'\n');
 console.log('Validated '+counts.lessons.total+' lessons and '+counts.challenges.total+' challenges; aliases: '+Object.keys(migrationMap).length+' lesson / '+Object.keys(challengeMigrationMap).length+' challenge');
