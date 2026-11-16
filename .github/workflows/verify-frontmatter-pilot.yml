@@ -1,0 +1,44 @@
+name: Verify CS1 front matter pilot
+on:
+  push:
+    branches:
+      - feature/cs1-frontmatter-identity-pilot
+    paths:
+      - 'scripts/build-frontmatter-catalog.mjs'
+      - 'units/**'
+      - '.github/workflows/verify-frontmatter-pilot.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Compile front matter and legacy mapping
+        run: node scripts/build-frontmatter-catalog.mjs
+      - name: Assert stable identity and preserved grade keys
+        run: |
+          node --input-type=module <<'NODE'
+          import {readFileSync} from 'node:fs';
+          import assert from 'node:assert/strict';
+          const catalog=JSON.parse(readFileSync('build/frontmatter/course.json','utf8'));
+          const map=JSON.parse(readFileSync('build/frontmatter/legacy-id-map.json','utf8'));
+          const first=catalog.lessons.find(x=>x.id==='01-how-programs-work/01-first-message');
+          assert(first,'Existing lesson ID must remain readable');
+          assert.equal(first.stableId,'les_8f3a2c91');
+          assert.equal(first.title,'Instructions and output');
+          assert.equal(first.points,5);
+          assert.equal(first.existingPassKey,'cs1:unit01:pass:01-first-message');
+          assert.equal(map[first.id],first.stableId);
+          assert(catalog.lessons.length>=24,'Existing lesson catalog must remain intact');
+          assert.equal(new Set(catalog.lessons.map(x=>x.id)).size,catalog.lessons.length);
+          console.log('Verified '+catalog.lessons.length+' lessons; stable ID, title, points and legacy grade keys intact');
+          NODE
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cs1-frontmatter-pilot
+          path: build/frontmatter/
