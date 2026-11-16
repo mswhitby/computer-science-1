@@ -59,13 +59,13 @@ const challengeIds=new Set(),challengeAliases=new Set(),challengeSlugs=new Set()
 const challenges=legacyChallenges.map((row,index)=>{
  const file=resolve(root,'challenges/bank',row.id,'README.md');
  const source=readFileSync(file,'utf8');
- if(!source.startsWith('---\\n'))return {...row};
- const end=source.indexOf('\\n---\\n',4);
+ if(!source.startsWith('---\n'))return {...row};
+ const end=source.indexOf('\n---\n',4);
  if(end<0)throw Error('Unterminated challenge front matter: '+row.id);
  const meta={};let list=null;
- for(const line of source.slice(4,end).split('\\n')){
+ for(const line of source.slice(4,end).split('\n')){
   if(/^  - /.test(line)){if(!list)throw Error('Unexpected challenge list entry');meta[list].push(line.slice(4).trim());continue;}
-  const match=/^([A-Za-z][A-Za-z0-9]*):(?:\\s*(.*))?$/.exec(line);
+  const match=/^([A-Za-z][A-Za-z0-9]*):(?:\s*(.*))?$/.exec(line);
   if(!match)throw Error('Unsupported challenge YAML: '+line);
   const [,key,value='']=match;
   if(Object.hasOwn(meta,key))throw Error('Duplicate challenge field: '+key);
